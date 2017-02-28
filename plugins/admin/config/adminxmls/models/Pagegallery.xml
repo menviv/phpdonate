@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>	
+	<Pagegallery toptitle="גלרית תמונות">
+		<name name="שם פריט" list="true" />
+	</Pagegallery>
+	<Pagegallery_new toptitle="הוספת תמונה" edittitle="עריכת תמונה">
+		<item topname="פרטים">
+			<name name="שם פריט (פנימי)" />
+			<title name="כותרת" />
+			<link name="קישור" type="link" />
+			<src name="תמונה" type="file" />
+		</item>
+		<item topname="תגי מטה" toggle="true">
+			<meta_title name="כותרת" />
+			<meta_keywords name="מילות חיפוש" type="text" row_class="row_newData textarea_class_row" />
+			<meta_description name="תיאור" type="text" row_class="row_newData textarea_class_row" />
+		</item>
+	</Pagegallery_new>
+	<Require>
+		<fields name="true" thumb="true" />
+	</Require>
+</Items>

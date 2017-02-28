@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<Survey toptitle="סקרים">
+		<name name="שם" list="true" />
+	</Survey>
+	<Survey_new toptitle="הוספת סקר" edittitle="עריכת סקר">
+		<item topname="פרטים">
+			<name name="שם" />
+			<title name="כותרת" />
+			<answer1 name="תשובה 1" />
+			<answer2 name="תשובה 2" />
+			<answer3 name="תשובה 3" />
+			<answer4 name="תשובה 4" />
+		</item>
+	</Survey_new>
+	<Require>
+	</Require>
+</items>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<News toptitle="רשימת חדשות">
+		<name name="שם פריט" list="true" />
+	</News>
+	<News_new toptitle="חדש" edittitle="עריכת חדשות">
+		<item topname="פרטים">
+			<name name="שם פריט (פנימי)" />
+			<link name="קישור" type="link" />
+			<dateNews name="תאריך" type="date" />
+			<text name="תוכן" type="text" row_class="row_newData textarea_class_row" />
+		</item>
+	</News_new>
+	<Require>
+		<fields name="true" text="true"  />
+	</Require>
+	<Search>
+		<fields name="שם" text="תוכן" />
+	</Search>
+</items>

@@ -1,0 +1,27 @@
+.right{float:left;display:inline;}
+.left{float:right;display:inline;}
+html,body{direction:rtl;}
+
+#sidemenutoptitle {margin:25px 3px 4px 0;}
+.pageAddItem{padding-right:30px;padding-left:0;background:url('../img/layout/rtl/additem.png') no-repeat;}
+.listtable td{padding-right:15px;padding-left:0;}
+.top_newData{padding-right:11px;padding-left:0;}
+.row_newData {border-left:1px solid #B9C4CB;border-right:0;}
+.row_newData .names{padding-right:11px;padding-left:0;}
+.row_newData .inputs {padding-right:7px;padding-left:0;}
+.pagetoptitle {margin:23px 0 0 0;}
+
+.changelangCon{margin-right:8px;margin-left:0;}
+.changelangsel{margin-right:0;margin-left:10px;}
+#tooltip table{direction:ltr;}
+#tooltiptext{margin-right:10px;margin-left:0;direction:rtl;}
+
+.sidemenuinner {margin-right:24px;margin-left:0;}
+#headerlinksContainer{right:0;left:none;}
+#adminlogo{left:25px;right:auto;}
+.requireClass{background:#DCE5EB url('../img/layout/req.png') no-repeat 115px 10px !important;}
+.topTab{margin-left:3px;padding-right:10px;}
+.openFileBrowse{margin:7px 0 0 10px;}
+#treeMenuTop{padding-right:7px;text-align:right;background:url('../img/layout/rtl/treetop.jpg') no-repeat;padding-left:0;}
+
+.linkInput input{text-align:left !important;direction:ltr !important;}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<Staff toptitle="רשימת אנשי צוות">
+		<name name="שם" list="true" />
+	</Staff>
+	<Staff_new toptitle="הוספת איש צוות" edittitle="עריכת איש צוות">
+		<item topname="פרטים">
+			<name name="שם" />
+			<job name="תפקיד" />
+			<thumb name="תמונה עליונה" type="file" />
+			<head name="תמונה תחתונה" type="file" />
+			<gender name="מין" />
+			<text name="תוכן" type="text" row_class="row_newData tinymceText_row textarea_class_row" class="tinymceText" />
+		</item>
+	</Staff_new>
+	<Require>
+	</Require>
+</items>

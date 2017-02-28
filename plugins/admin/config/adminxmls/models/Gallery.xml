@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>	
+	<Gallery toptitle="גלרית תמונות">
+		<name name="שם פריט" list="true" />
+		<type name="סוג" list="true" />
+	</Gallery>
+	<Gallery_new toptitle="הוספת תמונה" edittitle="עריכת תמונה">
+		<item topname="פרטים">
+			<name name="שם פריט (פנימי)" />
+			<content name="טקסט" type="text" row_class="row_newData textarea_class_row" />
+			<link name="קישור" type="link" />
+			<thumb name="תמונה" type="file" />
+			<src name="תמונה גדולה" type="file" />
+		</item>
+	</Gallery_new>
+	<Require>
+		<fields name="true" thumb="true" />
+	</Require>
+</Items>

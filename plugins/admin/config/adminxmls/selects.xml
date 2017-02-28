@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<Menu>
+		<type header="תפריט עליון" footer="תפריט תחתון" category="קטגוריה" />
+		<lang he="עברית" en="אנגלית" empty="false" />
+	</Menu>
+	<Page>
+		<type home="עמוד הבית" mainarticle="קטגוריה ראשית" article="מאמר" contact="צור קשר" empty="false" faq="שאלות ותשובות" events="אירועים" staff="דף צוות" news="חדשות" search="חיפוש" donate="תרומות" mainitems="פורטל" drugs="תרופות" gallery="גלריה" rock="Rock" redit="Redit" />
+		<lang he="עברית" en="אנגלית" empty="false" />
+	</Page>
+	<Item>
+		<type image="תמונה" video="וידאו" empty="false" />
+	</Item>
+	<Staff>
+		<gender male="זכר" female="נקבה" empty="false" />
+	</Staff>
+	<Article>
+		<lang he="עברית" en="אנגלית" empty="false" />
+	</Article>
+</items>

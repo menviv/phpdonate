@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<Answer toptitle="רשימת תשובות">
+		<name name="שם פריט" list="true" />
+	</Answer>
+	<Answer_new toptitle="תשובה חדשה" edittitle="עריכת תשובה">
+		<item topname="פרטים">
+			<name name="שם פריט" />
+			<text name="תוכן" type="text" row_class="row_newData tinymceText_row textarea_class_row" class="tinymceText" />
+		</item>
+	</Answer_new>
+	<Require>
+		<fields name="true" />
+	</Require>
+</items>

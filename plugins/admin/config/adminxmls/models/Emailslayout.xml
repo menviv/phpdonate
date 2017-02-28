@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<Emailslayout toptitle="רשימת הגדרות אימיילים">
+		<name name="שם" list="true" />
+		<subjectasso name="נושא באתר" list="true" />
+		<subject name="נושא" list="true" />
+	</Emailslayout>
+	<Emailslayout_new toptitle="הוספת הגדרה" edittitle="עריכת הגדרה">
+		<item topname="פרטי אימייל">
+			<name name="שם" />
+			<subjectasso name="נושא באתר" />
+			<subject name="נושא" />
+			<sender name="כתובת שולח" />
+			<receiver name="כתובת מקבל" />
+			<key name="מפתח" />
+			<textvalue name="טקסט" type="text" row_class="row_newData textarea_class_row" />
+		</item>
+	</Emailslayout_new>
+</items>

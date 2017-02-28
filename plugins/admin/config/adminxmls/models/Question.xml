@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<Question toptitle="רשימת שאלות">
+		<name name="שם פריט" list="true" />
+	</Question>
+	<Question_new toptitle="שאלה חדשה" edittitle="עריכת שאלה">
+		<item topname="פרטים">
+			<name name="שם פריט" />
+		</item>
+	</Question_new>
+	<Require>
+		<fields name="true" />
+	</Require>
+</items>

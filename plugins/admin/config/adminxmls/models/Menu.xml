@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<Menu toptitle="תפריטים">
+		<name name="שם פריט" list="true" />
+		<type name="סוג" list="true" />
+	</Menu>
+	<Menu_new toptitle="הוספת תפריט" edittitle="עריכת תפריט">
+		<item topname="פרטים">
+			<name name="שם פריט (פנימי)" />
+			<type name="סוג" list="true" />
+			<page_id name="קישור לעמוד" />
+			<position name="מקום" />
+			<lang name="שפה" />
+		</item>
+	</Menu_new>
+	<Require>
+		<fields name="true" type="true" lang="true" />
+	</Require>
+</items>

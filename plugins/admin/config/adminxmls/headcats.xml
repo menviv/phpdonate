@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item>
+		<name>עמוד הבית</name>
+		<link>/</link>
+	</item>
+	<item>
+		<menu></menu>
+		<name>תוכן</name>
+		<link>/itemManagement/Page</link>
+	</item>
+	<item>
+		<menu></menu>
+		<name>חדשות</name>
+		<link>/itemManagement/News</link>
+	</item>
+	<item>
+		<menu></menu>
+		<name>מאמרים</name>
+		<link>/itemManagement/Article</link>
+	</item>
+	<item>
+		<menu></menu>
+		<name>תפריטים</name>
+		<link>/itemManagement/Menu</link>
+	</item>
+	<item>
+		<menu></menu>
+		<name>מדיה למאמרים</name>
+		<link>/itemManagement/Item</link>
+	</item>
+</items>

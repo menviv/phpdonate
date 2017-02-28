@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<index>
+		
+	</index>
+	<mainitems>
+		<mainintems_thumb name="תמונה" type="file" />
+	</mainitems>
+	<donate>
+		<donate_text name="טקסט" type="text" row_class="row_newData tinymceText_row textarea_class_row" class="tinymceText" />
+	</donate>
+</items>

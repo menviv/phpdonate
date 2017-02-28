@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<Portalitem toptitle="פורטל">
+		<name name="שם פריט" list="true" />
+	</Portalitem>
+	<Portalitem_new toptitle="חדש" edittitle="עריכה">
+		<item topname="פרטים">
+			<name name="שם פריט (פנימי)" />
+			<page_connectedid name="כתבה מקושרת" />
+			<link name="Link" type="link" />
+			<src name="תמונה" type="file" />
+			<summary name="תוכן" type="text" row_class="row_newData textarea_class_row" />
+		</item>
+	</Portalitem_new>
+	<Require>
+		
+	</Require>
+</items>

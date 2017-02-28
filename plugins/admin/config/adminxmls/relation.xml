@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<Menu>
+		<page_id foreignKey="pname" model="Page" />
+		<page_connected_id foreignKey="pname" model="Page" />
+		<parent_id foreignKey="name" model="Menu" />
+	</Menu>
+	<Article>
+		<parent_id foreignKey="name" model="Menu" />
+		<related foreignKey="name" model="Article" />
+	</Article>
+</items>

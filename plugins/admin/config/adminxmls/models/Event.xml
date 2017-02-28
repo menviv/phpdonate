@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<Event toptitle="רשימת אירועים">
+		<name name="שם פריט" list="true" />
+	</Event>
+	<Event_new toptitle="אירוע חדש" edittitle="עריכת אירוע">
+		<item topname="פרטים">
+			<name name="שם פריט" />
+			<innertitle name="שם פנימי" />
+			<link name="קישור" type="link" />
+			<image name="תמונה" type="file" />
+			<dateEvent name="תאריך האירוע" type="date" />
+			<excerpt name="תקציר" type="text" row_class="row_newData textarea_class_row" />
+			<text name="תוכן" type="text" row_class="row_newData tinymceText_row textarea_class_row" class="tinymceText" />
+		</item>
+		<item topname="תגי מטה" toggle="true">
+			<meta_title name="כותרת" />
+			<meta_keywords name="מילות חיפוש" type="text" row_class="row_newData textarea_class_row" />
+			<meta_description name="תיאור" type="text" row_class="row_newData textarea_class_row" />
+		</item>
+	</Event_new>
+	<Require>
+		<fields name="true" />
+	</Require>
+</items>

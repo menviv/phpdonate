@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<Admin toptitle="מנהל ראשי">
+		<username name="שם משתמש" list="true" />
+	</Admin>
+	<Admin_new toptitle="מנהל ראשי" edittitle="מנהל ראשי">
+		<item topname="פרטים">
+			<username name="שם משתמש" />
+			<password name="סיסמא" type="password" />
+		</item>
+	</Admin_new>
+	<Require>
+		<fields username="true" />
+	</Require>
+</items>

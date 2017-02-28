@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<Drug toptitle="רשימת תרופות">
+		<id name="ID" list="true" />
+		<name name="שם פריט" list="true" />
+	</Drug>
+	<Drug_new toptitle="תרופה חדשה" edittitle="עריכת תרופה">
+		<item topname="פרטים">
+			<name name="שם פריט" />
+			<src name="תמונה" type="file" />
+			<text name="תוכן" type="text" row_class="row_newData tinymceText_row textarea_class_row" class="tinymceText" />
+		</item>
+	</Drug_new>
+	<Require>
+		<fields name="true" />
+	</Require>
+</items>

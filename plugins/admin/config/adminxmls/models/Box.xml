@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<Box toptitle="רשימת אייטמים">
+		<name name="שם פריט" list="true" />
+	</Box>
+	<Box_new toptitle="אייטם חדש" edittitle="עריכת אייטם">
+		<item topname="פרטים">
+			<name name="שם פריט (פנימי)" />
+			<link name="קישור" type="link" />
+			<src name="תמונה" type="file" />
+			<text name="תוכן" type="text" row_class="row_newData textarea_class_row tinymceText_row" class="tinymceText" />
+		</item>
+	</Box_new>
+	<Require>
+
+	</Require>
+</items>

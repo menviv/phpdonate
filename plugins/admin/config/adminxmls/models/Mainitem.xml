@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>	
+	<Mainitem toptitle="פורטל">
+		<name name="שם פריט" list="true" />
+	</Mainitem>
+	<Mainitem_new toptitle="חדש" edittitle="עריכה">
+		<item topname="פרטים">
+			<name name="שם פריט (פנימי)" />
+			<title name="כותרת" />
+			<src name="תמונה" type="file" />
+			<link name="קישור" type="link" />
+			<text name="תוכן" type="text" row_class="row_newData tinymceText_row textarea_class_row" class="tinymceText" />
+		</item>
+	</Mainitem_new>
+	<Require>
+		
+	</Require>
+</items>

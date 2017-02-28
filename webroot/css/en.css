@@ -1,0 +1,123 @@
+/*
+* html .png {
+behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+this.src = "img/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='" + this.origBg + "')",
+this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+);
+}
+
+*/
+
+#content{direction:ltr;text-align:left;}
+#content .right{float:left;}
+#content .left{float:right;}
+
+
+.leftSideSmall{margin-right:0;margin-left:20px;}
+
+#content{background-position:left top !important;}
+
+/**breadCrumbs**/
+#breadCrumbs{margin-right:0;margin-left:5px;}
+.breadCrumbArrow{background:url('../img/layout/breadcrumbarrowen.jpg') no-repeat;}
+/**end breadCrumbs**/
+
+
+/**sideRight**/
+#sideRight{padding-right:0;padding-left:25px;}
+.sideRightCategoryTitle{float:left;}
+
+.sideRightCategoryTitleSel{background:url('../img/layout/catselen.png') no-repeat right top;padding-left:0;padding-right:13px;}
+.sideRightCategoryTitleSel h2{padding-left:0;padding-right:3px;}
+.sideRightCategoryTitle h2{padding-right:0;padding-left:2px;}
+
+
+.sideRightCategorySubtitleSel{background:url('../img/layout/subcatselen.png') no-repeat left 0;}
+
+
+.sideRightCategorySubtitle{margin-right:0;margin-left:9px;padding-right:0;padding-left:11px;}
+
+.sideRightSideArticleItemImage{right:auto;left:0;}
+.sideRightSideArticleItemBackOver{right:auto;left:0;}
+.sideRightSideArticleItemTitle{right:auto;left:8px;}
+.sideRightSideArticleItemText{padding-right:0;padding-left:8px;}
+.sideRightSideArticleItemBottom{background:url('../img/layout/rightarticlebottomen.png') no-repeat;}
+/**end sideRight**/
+
+
+/**articlePage**/
+#articlePage{}
+#articlePageTop{background:url('../img/layout/articletopbgen.jpg') no-repeat;padding-right:0;padding-left:13px;}
+#articlePageTopImage{left:auto;right:0;}
+#pageShareLinks{margin-right:0;margin-left:12px;}
+.pageShareLinkText{margin-right:10px;margin-left:3px;}
+.pageShareLinksSep{margin-right:0;margin-left:12px;}
+#articlePageAuthor{margin-right:0;margin-left:15px;}
+#articlePageText{margin-right:0;margin-left:15px;}
+
+#articlePageText thead{background:url('../img/layout/tablehead.jpg') repeat-x;}
+#articlePageText th{background:url('../img/layout/tablesep.png') repeat-y;}
+#articlePageText td{background:white url('../img/layout/tablesep.png') repeat-y;}
+
+.imageItemBg{margin-left:0;margin-right:10px;}
+.imageItemCopy{right:auto;left:0;}
+.videoItemText{margin-right:0;margin-left:7px;}
+.relatedArticle{background:url('../img/layout/relatedbgen.png') no-repeat;padding-right:0;padding-left:40px;}
+/**end articlePage**/
+
+
+/**mainarticlePage**/
+#mainarticlePageTopTitle{background:url('../img/layout/mainarticletopbgen.jpg') no-repeat;padding-right:0;padding-left:12px;}
+#mainarticlePageThumbs{margin-right:0;margin-left:12px;}
+.mainarticlePageThumb{margin-left:0;margin-right:11px;border-right:0;border-left:3px solid #e9e9e9;padding-right:0;padding-left:15px;}
+.mainarticlePageThumbOver{background:url('../img/layout/mainarticlethumbtitleen.jpg') no-repeat;}
+.mainarticlePageThumbTitle{right:auto;left:23px;}
+.mainarticlePageThumbLink{right:auto;left:15px;}
+/**end mainarticlePage**/
+
+/**faq page**/
+#faqQuestionsContainer{margin-right:0;margin-left:10px;}
+.questionRowTop{border-right:0;border-left:5px solid #e9e9e9;}
+.questionRowTitle{margin-right:0;margin-left:8px;}
+.questionRowAnswerTitle{margin-right:0;margin-left:12px;}
+/**end faq page**/
+
+/**donate page**/
+#donateTableRight{margin-right:0;margin-left:12px;}
+.donateBox{background:white url('../img/layout/donatetoptitleen.png') no-repeat 13px 3px;border-right:0;border-left:3px solid #e9e9e9;padding-right:0;padding-left:15px;}
+.donateBoxBg{left:auto;right:0;}
+.donateBoxTitle{right:auto;left:2px;}
+.donateBoxText{right:auto;left:5px;}
+.donateBoxTextBottom{margin-right:0;margin-left:12px;}
+#donateTableLeft{background:white url('../img/layout/donatetoptitleen.png') no-repeat 13px 4px;margin-right:0;margin-left:15px;border-right:0;border-left:3px solid #e9e9e9;padding-right:0;padding-left:18px;}
+.donateFormRowInputSum{margin-left:0;margin-right:10px;}
+.donateFormRowTitleMonth{margin-left:0;margin-right:5px;}
+.donateFormRowTitleYear{margin-left:0;margin-right:5px;}
+.donateFormRowInputSubmit{background:url('../img/layout/donationsubmiten.png') no-repeat;}
+.require{padding-left:0;padding-right:8px;background:url('../img/layout/require.jpg') no-repeat right 4px;}
+.donateFormRowRequireText .require{background:url('../img/layout/require.jpg') no-repeat;padding-right:0;}
+/**end donate page**/
+
+
+.selectSel{background-position:right top !important;}
+
+
+#donation img{background:url('../img/layout/donationen.png') left top no-repeat;}
+#donation:hover img{background:url('../img/layout/donationen.png') no-repeat right top !important;}
+
+#search{width:200px;}
+.searchInput input{direction:ltr;}
+.searchSubmit,.searchInput{float:left !important;}
+.searchSubmit{margin-left:7px;}
+.searchInput{margin-left:10px;}
+
+#footerAddress{display:none;}
+
+#footerToTopArrow{left:auto;right:47px;}
+#footerTopLeft{margin-left:200px;margin-right:0;}
+#footerTopLeft .right,#footerBottomLeft .right{float:left;}
+#footerTopLeft .left,#footerBottomLeft .left{float:right;}
+#footerTopLeftToTopLink{margin-left:0;margin-right:50px;}
+#footerBottomLeft{direction:ltr;text-align:left;}
